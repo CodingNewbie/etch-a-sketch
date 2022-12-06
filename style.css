@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    margin: 0rem 10rem 10rem 10rem;
+}
+
+.grid-item {
+    padding: auto;
+    border: 1px solid black;
+    aspect-ratio: 1;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+#grid-size {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+}
